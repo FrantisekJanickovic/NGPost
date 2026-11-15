@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prerušovaný pôst – kompletný balíček</title>
+  <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. E-book, video kurz a materiály na stiahnutie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="top">
+    <a class="brand" href="#" aria-label="Domov">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="3" opacity=".25"/><path d="M12 3a9 9 0 0 1 7.8 13.5" fill="none" stroke="var(--day)" stroke-width="3" stroke-linecap="round"/></svg>
+      Názov metódy
+    </a>
+    <a class="btn btn-small" href="#kupit" data-stripe>Kúpiť balíček</a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero wrap">
+      <div class="hero-text">
+        <h1>Lorem ipsum dolor sit amet consectetur</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#kupit" data-stripe>Kúpiť balíček</a>
+          <a class="link" href="#obsah">Čo je v balíčku</a>
+        </div>
+        <p class="note">Jednorazová platba. Lorem ipsum dolor sit amet.</p>
+      </div>
+
+      <figure class="dial" aria-label="Ukážka denného režimu: okno jedenia a pôstu">
+        <svg viewBox="0 0 300 300" role="img" aria-labelledby="dial-title">
+          <title id="dial-title">24-hodinový ciferník s vyznačeným oknom jedenia</title>
+          <circle class="dial-night" cx="150" cy="150" r="118"/>
+          <circle class="dial-day" id="dial-day" cx="150" cy="150" r="118"/>
+          <g class="dial-hours">
+            <text x="150" y="66">0</text>
+            <text x="234" y="151">6</text>
+            <text x="150" y="234">12</text>
+            <text x="66" y="151">18</text>
+          </g>
+          <text class="dial-big" id="dial-big" x="150" y="144">16 : 8</text>
+          <text class="dial-sub" id="dial-sub" x="150" y="184">jem 12:00 – 20:00</text>
+        </svg>
+        <div class="dial-switch" role="group" aria-label="Vyber režim">
+          <button type="button" data-fast="14">14 : 10</button>
+          <button type="button" data-fast="16" aria-pressed="true">16 : 8</button>
+          <button type="button" data-fast="18">18 : 6</button>
+        </div>
+        <figcaption><span class="key key-night"></span>pôst <span class="key key-day"></span>okno jedenia</figcaption>
+      </figure>
+    </section>
+
+    <!-- BENEFITY -->
+    <section class="section wrap" id="benefity">
+      <h2>Prečo to funguje</h2>
+      <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      <ul class="benefits">
+        <li><h3>Lorem ipsum dolor</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p></li>
+        <li><h3>Sit amet consectetur</h3><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p></li>
+        <li><h3>Adipiscing elit sed</h3><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p></li>
+        <li><h3>Eiusmod tempor</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam.</p></li>
+        <li><h3>Incididunt ut labore</h3><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p></li>
+        <li><h3>Dolore magna aliqua</h3><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p></li>
+      </ul>
+    </section>
+
+    <!-- PRÍBEH -->
+    <section class="section story">
+      <div class="wrap story-inner">
+        <h2>Po 10 rokoch to konečne zabralo</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p class="sign">Meno Priezvisko, autor</p>
+      </div>
+    </section>
+
+    <!-- OBSAH BALÍČKA -->
+    <section class="section wrap" id="obsah">
+      <h2>Čo je v balíčku</h2>
+      <p class="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <dl class="pack">
+        <div><dt>E-book</dt><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore.</dd></div>
+        <div><dt>Video kurz</dt><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rovnaký obsah ako e-book, vo videu.</dd></div>
+        <div><dt>Ťaháky a checklisty</dt><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Grafy, plány a motivačné materiály na stiahnutie.</dd></div>
+        <div><dt>Viac jazykov</dt><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor.</dd></div>
+      </dl>
+    </section>
+
+    <!-- AKO TO PREBIEHA -->
+    <section class="section wrap" id="postup">
+      <h2>Ako to prebieha</h2>
+      <ol class="steps">
+        <li><h3>Kúpiš balíček</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></li>
+        <li><h3>Dostaneš prístup e-mailom</h3><p>Sed do eiusmod tempor incididunt ut labore et dolore.</p></li>
+        <li><h3>Začneš prvým dňom</h3><p>Ut enim ad minim veniam, quis nostrud exercitation.</p></li>
+      </ol>
+    </section>
+
+    <!-- CENA / CTA -->
+    <section class="section wrap" id="kupit">
+      <div class="offer">
+        <div>
+          <h2>Kompletný balíček</h2>
+          <ul class="ticks">
+            <li>E-book</li>
+            <li>Video kurz</li>
+            <li>Ťaháky, checklisty a grafy</li>
+            <li>Lorem ipsum dolor sit amet</li>
+          </ul>
+        </div>
+        <div class="offer-buy">
+          <p class="price"><span>XX</span> €</p>
+          <p class="price-note">Jednorazovo, vrátane DPH</p>
+          <a class="btn btn-wide" href="#kupit" data-stripe>Kúpiť balíček</a>
+          <p class="guarantee">Lorem ipsum: garancia vrátenia peňazí do XX dní.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section wrap narrow" id="faq">
+      <h2>Časté otázky</h2>
+      <details><summary>Lorem ipsum dolor sit amet?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></details>
+      <details><summary>Consectetur adipiscing elit sed do?</summary><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></details>
+      <details><summary>Eiusmod tempor incididunt ut labore?</summary><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></details>
+      <details><summary>Pre koho metóda nie je vhodná?</summary><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident.</p></details>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <p class="disclaimer">Obsah má informačný charakter a nenahrádza odporúčanie lekára. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Výsledky sú individuálne.</p>
+      <nav aria-label="Právne informácie">
+        <a href="#">Obchodné podmienky</a>
+        <a href="#">Ochrana súkromia</a>
+        <a href="#">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
